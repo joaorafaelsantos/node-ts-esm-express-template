@@ -1,0 +1,34 @@
+{
+  "name": "node-ts-esm-express-template",
+  "version": "1.0.0",
+  "description": "A Node.js template with TypeScript, ES modules, and Express.js setup.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaorafaelsantos/node-ts-esm-express-template.git"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "es-modules",
+    "express",
+    "template"
+  ],
+  "author": "João Santos",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.8.6",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
